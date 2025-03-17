@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // Tracking: Optional - Ersetze mit deinem Google Analytics Code
+        function trackVisit() {
+            console.log("User visited the redirect page");
+            // Falls Google Analytics verwendet wird, hier Code einfügen
+        }
+
+        function redirectToYouTube() {
+            trackVisit(); // Tracking aufrufen
+            
+            // YouTube Link mit Autoplay und Startzeit
+            window.location.href = "https://www.youtube.com/embed/dQw4w9WgXcQ?start=84&autoplay=1&rel=0";
+        }
+
+        // Automatische Weiterleitung nach wenigen Millisekunden
+        setTimeout(redirectToYouTube, 1000);
+    </script>
+</head>
+<body>
+    <p>Weiterleitung zu YouTube...</p>
+</body>
+</html>
+
+
+
